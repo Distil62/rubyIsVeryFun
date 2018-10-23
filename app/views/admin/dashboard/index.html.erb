@@ -5,6 +5,11 @@
 			<div class="cell">
         <h2 class="fg-white">Posts : </h2>
         <div class="tiles-grid bd-white">
+        <% @data.posts do |post| %>
+            <div data-role="tile" data-size="medium" class="bg-red">
+            <span class="branding-bar">
+              <%= post.title %>
+            </span>
             </div>
           <% end %>
         </div>

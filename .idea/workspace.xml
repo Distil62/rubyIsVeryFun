@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f071b79-6f6b-4bb0-a094-d5208a0855d2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/admin/dashboard_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/dashboard_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/admin/dashboard/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/dashboard/index.html.erb" afterDir="false" />
     </list>
@@ -30,7 +29,7 @@
         <counts>
           <entry key="DashboardFacade" value="3" />
           <entry key="Gemfile" value="3" />
-          <entry key="erb" value="7" />
+          <entry key="erb" value="8" />
           <entry key="lock" value="2" />
           <entry key="rb" value="28" />
           <entry key="yml" value="6" />
@@ -39,7 +38,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="RHTML" value="7" />
+          <entry key="RHTML" value="8" />
           <entry key="Ruby" value="33" />
           <entry key="Scratch" value="1" />
           <entry key="YAML" value="6" />
@@ -50,14 +49,14 @@
           <entry key="DashboardFacade" value="223" />
           <entry key="Gemfile" value="11" />
           <entry key="erb" value="222" />
-          <entry key="rb" value="1801" />
+          <entry key="rb" value="1802" />
           <entry key="yml" value="257" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="RHTML" value="222" />
-          <entry key="Ruby" value="2035" />
+          <entry key="Ruby" value="2036" />
           <entry key="YAML" value="257" />
         </counts>
       </usages-collector>
@@ -68,11 +67,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/admin/dashboard_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+            <state relative-caret-position="69">
+              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/admin/dashboard/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -123,8 +131,8 @@
         <option value="$PROJECT_DIR$/app/models/profile.rb" />
         <option value="$PROJECT_DIR$/app/controllers/admin/posts_controller.rb" />
         <option value="$PROJECT_DIR$/app/Facades/DashboardFacade" />
-        <option value="$PROJECT_DIR$/app/views/admin/dashboard/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/admin/dashboard_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/admin/dashboard/index.html.erb" />
       </list>
     </option>
   </component>
@@ -145,6 +153,7 @@
     <option name="width" value="1346" />
     <option name="height" value="698" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -168,6 +177,27 @@
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Facades" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
@@ -304,22 +334,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540291225854</updated>
-      <workItem from="1540291228767" duration="14328000" />
+      <workItem from="1540291228767" duration="15042000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14328000" />
+    <option name="totallyTimeSpent" value="15042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25755286" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25755286" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection Results" weight="0.32991204" />
       <window_info anchor="bottom" id="Messages" weight="0.109970674" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.37536657" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.37536657" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
@@ -546,17 +577,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/dashboard/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/dashboard_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="69">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/admin/dashboard_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/admin/dashboard/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        <state relative-caret-position="223">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
