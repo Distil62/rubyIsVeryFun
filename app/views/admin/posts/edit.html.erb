@@ -1,0 +1,6 @@
+<%= form_tag admin_post_path(@post.id), method: put do %>
+	<%= render partial: 'form' %>
+	<br />
+
+	<%= submit_tag "Save" %>
+<% end %>

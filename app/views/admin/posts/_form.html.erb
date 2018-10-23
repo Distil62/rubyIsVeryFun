@@ -1,0 +1,15 @@
+<label>Titre</label>
+<%= text_field_tag 'post[title]', @post.title %>
+
+<label>Contenu</label>
+<%= text_area_tag 'post[content]', @post.content %>
+
+<label>Catégorie</label>
+<select name="post[category_id]" >
+  <% Category.all.each do |category| %>
+    <option value="<%= category.id %>"><%= category.name %></option>
+  <% end %>
+</select>
+
+<br />
+<%= submit_tag "Save" %>
